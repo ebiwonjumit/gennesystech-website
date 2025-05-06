@@ -29,7 +29,7 @@ const ContactSection: React.FC = () => {
         />
         
         <div className="grid md:grid-cols-2 gap-12 items-start mt-12">
-          <Card className="bg-gray-50">
+          <Card className="bg-white border border-gray-200">
             <CardContent className="p-8 pt-8">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
@@ -42,7 +42,7 @@ const ContactSection: React.FC = () => {
                         <FormControl>
                           <Input
                             placeholder="Your name"
-                            className="w-full px-4 py-3"
+                            className="w-full px-4 py-3 border-gray-300 focus:border-black focus:ring-black"
                             {...field}
                           />
                         </FormControl>
@@ -61,7 +61,7 @@ const ContactSection: React.FC = () => {
                           <Input
                             placeholder="your.email@example.com"
                             type="email"
-                            className="w-full px-4 py-3"
+                            className="w-full px-4 py-3 border-gray-300 focus:border-black focus:ring-black"
                             {...field}
                           />
                         </FormControl>
@@ -79,7 +79,7 @@ const ContactSection: React.FC = () => {
                         <FormControl>
                           <Input
                             placeholder="Your company name"
-                            className="w-full px-4 py-3"
+                            className="w-full px-4 py-3 border-gray-300 focus:border-black focus:ring-black"
                             {...field}
                           />
                         </FormControl>
@@ -97,7 +97,7 @@ const ContactSection: React.FC = () => {
                         <FormControl>
                           <Textarea
                             placeholder="Tell us about your project"
-                            className="w-full px-4 py-3 min-h-[120px]"
+                            className="w-full px-4 py-3 min-h-[120px] border-gray-300 focus:border-black focus:ring-black"
                             {...field}
                           />
                         </FormControl>
@@ -108,7 +108,7 @@ const ContactSection: React.FC = () => {
                   
                   <Button 
                     type="submit" 
-                    className="w-full bg-primary hover:bg-primary/90 text-white font-medium py-3"
+                    className="w-full bg-black hover:bg-gray-800 text-white font-medium py-3"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? "Sending..." : "Send Message"}
