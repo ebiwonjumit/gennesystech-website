@@ -15,7 +15,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   bio,
 }) => {
   return (
-    <Card className="bg-white rounded-xl shadow-sm overflow-hidden transition-all hover:shadow-md">
+    <Card className="bg-white border border-gray-200 rounded-xl overflow-hidden transition-all hover:shadow-md">
       <img 
         src={imageSrc} 
         alt={name} 
@@ -23,7 +23,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
       />
       <CardContent className="p-6">
         <h4 className="text-lg font-bold">{name}</h4>
-        <p className="text-primary font-medium mb-3">{position}</p>
+        <p className="text-gray-700 font-medium mb-3">{position}</p>
         <p className="text-gray-600 text-sm">{bio}</p>
       </CardContent>
     </Card>

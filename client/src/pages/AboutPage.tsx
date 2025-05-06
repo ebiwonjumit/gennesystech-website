@@ -13,7 +13,7 @@ const AboutPage: React.FC = () => {
           content="Learn about Gennesys Tech LLC, our history, our leadership team, and our mission to transform businesses through technology."
         />
       </Helmet>
-      <div className="pt-16 pb-8 bg-gray-50">
+      <div className="pt-16 pb-8 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Us</h1>
           <p className="text-gray-600 text-lg max-w-2xl">

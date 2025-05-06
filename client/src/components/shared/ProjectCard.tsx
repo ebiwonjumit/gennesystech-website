@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   technologies,
 }) => {
   return (
-    <Card className="bg-white overflow-hidden transition-all hover:shadow-md">
+    <Card className="bg-white border border-gray-200 overflow-hidden transition-all hover:shadow-md">
       <img 
         src={imageSrc} 
         alt={`${title} screenshot`} 
@@ -30,16 +30,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="flex justify-between items-start mb-4">
           <div>
             <h3 className="text-xl font-bold">{title}</h3>
-            <p className="text-primary">{category}</p>
+            <p className="text-gray-700">{category}</p>
           </div>
-          <Badge variant="secondary" className="bg-green-100 text-green-700 text-xs px-3 py-1">
+          <Badge variant="secondary" className="bg-gray-100 text-gray-800 text-xs px-3 py-1 border border-gray-300">
             {status}
           </Badge>
         </div>
         <p className="text-gray-600 mb-4">{description}</p>
         <div className="flex flex-wrap gap-2">
           {technologies.map((tech, index) => (
-            <Badge key={index} variant="outline" className="bg-gray-50 text-gray-600 text-xs px-3 py-1">
+            <Badge key={index} variant="outline" className="bg-white text-gray-800 text-xs px-3 py-1 border border-gray-300">
               {tech}
             </Badge>
           ))}

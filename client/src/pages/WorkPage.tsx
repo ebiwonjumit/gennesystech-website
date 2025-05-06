@@ -31,7 +31,7 @@ const WorkPage: React.FC = () => {
             description="Let's discuss how we can help bring your software vision to life with solutions tailored to your specific needs."
           />
           <Link href="/contact">
-            <Button className="mt-8 bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
+            <Button className="mt-8 bg-black hover:bg-gray-800 text-white px-8 py-6 text-lg">
               Get in Touch
             </Button>
           </Link>
