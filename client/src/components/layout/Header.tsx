@@ -18,13 +18,13 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex justify-between items-center py-4">
           <Link href="/">
             <a className="flex items-center space-x-2">
-              <span className="text-primary text-2xl font-bold">Gennesys Tech</span>
-              <span className="text-accent text-xs font-medium tracking-widest">LLC</span>
+              <span className="text-black text-2xl font-bold">Gennesys Tech</span>
+              <span className="text-gray-500 text-xs font-medium tracking-widest">LLC</span>
             </a>
           </Link>
           
@@ -32,8 +32,8 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
               <Link key={link.href} href={link.href}>
-                <a className={`nav-link text-gray-600 hover:text-primary font-medium transition-colors ${
-                  location === link.href ? "text-primary" : ""
+                <a className={`nav-link text-gray-600 hover:text-black font-medium transition-colors ${
+                  location === link.href ? "text-black" : ""
                 }`}>
                   {link.label}
                 </a>
@@ -56,13 +56,13 @@ const Header: React.FC = () => {
       
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white shadow-md">
+        <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-6 py-4 space-y-3">
             {navLinks.map((link) => (
               <Link key={link.href} href={link.href}>
                 <a 
-                  className={`block py-2 text-gray-600 hover:text-primary font-medium ${
-                    location === link.href ? "text-primary" : ""
+                  className={`block py-2 text-gray-600 hover:text-black font-medium ${
+                    location === link.href ? "text-black" : ""
                   }`}
                   onClick={closeMenu}
                 >
