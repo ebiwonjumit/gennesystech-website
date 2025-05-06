@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
 
 const TestimonialsSection: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 bg-gray-50">
+    <section className="py-16 md:py-24 bg-white border-t border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <SectionHeading
           title="Client Testimonials"

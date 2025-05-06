@@ -126,7 +126,7 @@ const ContactSection: React.FC = () => {
             
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <div className="text-primary text-xl mt-1">
+                <div className="text-black text-xl mt-1">
                   <MailIcon className="h-6 w-6" />
                 </div>
                 <div>
@@ -136,7 +136,7 @@ const ContactSection: React.FC = () => {
               </div>
               
               <div className="flex items-start space-x-4">
-                <div className="text-primary text-xl mt-1">
+                <div className="text-black text-xl mt-1">
                   <PhoneIcon className="h-6 w-6" />
                 </div>
                 <div>
@@ -146,7 +146,7 @@ const ContactSection: React.FC = () => {
               </div>
               
               <div className="flex items-start space-x-4">
-                <div className="text-primary text-xl mt-1">
+                <div className="text-black text-xl mt-1">
                   <MapPinIcon className="h-6 w-6" />
                 </div>
                 <div>
@@ -164,7 +164,7 @@ const ContactSection: React.FC = () => {
               <div className="flex space-x-4">
                 <a 
                   href="https://linkedin.com" 
-                  className="text-gray-500 hover:text-primary transition-colors"
+                  className="text-gray-500 hover:text-black transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -173,7 +173,7 @@ const ContactSection: React.FC = () => {
                 </a>
                 <a 
                   href="https://twitter.com" 
-                  className="text-gray-500 hover:text-primary transition-colors"
+                  className="text-gray-500 hover:text-black transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Twitter"
@@ -182,7 +182,7 @@ const ContactSection: React.FC = () => {
                 </a>
                 <a 
                   href="https://github.com" 
-                  className="text-gray-500 hover:text-primary transition-colors"
+                  className="text-gray-500 hover:text-black transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
