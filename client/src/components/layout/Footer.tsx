@@ -12,7 +12,6 @@ const Footer: React.FC = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <span className="text-white text-2xl font-bold">Gennesys Tech</span>
-              <span className="text-gray-400 text-xs font-medium tracking-widest">LLC</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Building innovative software solutions that help businesses thrive in the digital age.
@@ -22,57 +21,6 @@ const Footer: React.FC = () => {
             </p>
           </div>
           
-          <div>
-            <h3 className="text-white font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/">
-                  <a className="text-gray-400 hover:text-white transition-colors">Home</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                  <a className="text-gray-400 hover:text-white transition-colors">About</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/work">
-                  <a className="text-gray-400 hover:text-white transition-colors">Our Work</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <a className="text-gray-400 hover:text-white transition-colors">Contact</a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-white font-bold mb-4">Services</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Custom Software
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Mobile Apps
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Data Analytics
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Cloud Solutions
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
         
         <div className="flex items-center space-x-4 mt-12 pt-6 border-t border-gray-800">

@@ -15,14 +15,6 @@ const WorkPage: React.FC = () => {
           content="Explore Gennesys Tech LLC's portfolio of custom software, mobile applications, and data analytics solutions built for clients across various industries."
         />
       </Helmet>
-      <div className="pt-16 pb-8 bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Work</h1>
-          <p className="text-gray-600 text-lg max-w-2xl">
-            We pride ourselves on delivering high-quality software solutions that solve real business problems. Browse our project portfolio below.
-          </p>
-        </div>
-      </div>
       <WorkSection />
       <div className="py-16 md:py-20 bg-white border-t border-gray-200">
         <div className="max-w-3xl mx-auto px-6 md:px-12 text-center">

@@ -38,18 +38,6 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
         
-        <div className="mt-20 md:mt-28 text-center">
-          <h2 className="text-2xl font-bold mb-8">Trusted By Innovative Companies</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center opacity-70">
-            {[1, 2, 3, 4].map((index) => (
-              <div key={index} className="flex justify-center">
-                <div className="h-10 bg-gray-100 border border-gray-200 rounded w-32 flex items-center justify-center text-gray-500">
-                  Client Logo
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

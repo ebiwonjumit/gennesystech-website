@@ -131,32 +131,11 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold">Email</h4>
-                  <p className="text-gray-600">contact@gennesystech.com</p>
+                  <p className="text-gray-600">gennesystech@gmail.com</p>
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4">
-                <div className="text-black text-xl mt-1">
-                  <PhoneIcon className="h-6 w-6" />
-                </div>
-                <div>
-                  <h4 className="font-bold">Phone</h4>
-                  <p className="text-gray-600">(555) 123-4567</p>
-                </div>
-              </div>
               
-              <div className="flex items-start space-x-4">
-                <div className="text-black text-xl mt-1">
-                  <MapPinIcon className="h-6 w-6" />
-                </div>
-                <div>
-                  <h4 className="font-bold">Location</h4>
-                  <p className="text-gray-600">
-                    123 Tech Plaza, Suite 400<br />
-                    San Francisco, CA 94105
-                  </p>
-                </div>
-              </div>
             </div>
             
             <div className="pt-6">

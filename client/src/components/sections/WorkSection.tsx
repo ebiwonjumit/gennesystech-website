@@ -14,36 +14,12 @@ interface Project {
 const projects: Project[] = [
   {
     imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    title: "FinTrack Dashboard",
+    title: "Shorstacks",
     category: "Finance Technology",
-    status: "Completed",
-    description: "A comprehensive financial analytics platform for investment professionals with real-time data visualization.",
-    technologies: ["React", "Node.js", "AWS"]
+    status: "In Progress",
+    description: "A comprehensive financial platform aimed to teach the next generation about financial literacy and investment strategies.",
+    technologies: ["React", "NextJS", "NextAuth", "TailwindCSS"]
   },
-  {
-    imageSrc: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    title: "MediConnect",
-    category: "Healthcare",
-    status: "Completed",
-    description: "A telemedicine platform connecting patients with healthcare providers securely and efficiently.",
-    technologies: ["Flutter", "Firebase", "HIPAA Compliant"]
-  },
-  {
-    imageSrc: "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    title: "ShopSmart Platform",
-    category: "E-Commerce",
-    status: "Completed",
-    description: "A scalable e-commerce solution with advanced inventory management and personalized recommendations.",
-    technologies: ["Next.js", "GraphQL", "Stripe"]
-  },
-  {
-    imageSrc: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    title: "SmartFactory IoT",
-    category: "Manufacturing",
-    status: "Completed",
-    description: "An IoT platform for manufacturing facilities to monitor equipment health and optimize operations.",
-    technologies: ["Python", "React", "MQTT"]
-  }
 ];
 
 const WorkSection: React.FC = () => {

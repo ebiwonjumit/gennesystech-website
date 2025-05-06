@@ -24,7 +24,6 @@ const Header: React.FC = () => {
           <Link href="/">
             <a className="flex items-center space-x-2">
               <span className="text-black text-2xl font-bold">Gennesys Tech</span>
-              <span className="text-gray-500 text-xs font-medium tracking-widest">LLC</span>
             </a>
           </Link>
           
