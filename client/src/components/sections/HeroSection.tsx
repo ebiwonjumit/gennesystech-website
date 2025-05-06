@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -z-10 top-0 right-0 w-4/5 h-4/5 hero-gradient rounded-full filter blur-3xl opacity-20"></div>
+            <div className="absolute -z-10 top-0 right-0 w-4/5 h-4/5 bg-gray-200 rounded-full filter blur-3xl opacity-20"></div>
             <img 
               src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
               alt="Software development team at work" 

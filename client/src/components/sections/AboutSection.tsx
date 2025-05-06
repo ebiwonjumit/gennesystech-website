@@ -32,7 +32,7 @@ const teamMembers: TeamMember[] = [
 
 const AboutSection: React.FC = () => {
   return (
-    <section id="about" className="py-16 md:py-24 bg-gray-50">
+    <section id="about" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <SectionHeading
           title="About Gennesys Tech"
