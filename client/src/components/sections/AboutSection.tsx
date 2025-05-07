@@ -14,14 +14,14 @@ const teamMembers: TeamMember[] = [
     imageSrc:
       "https://media.licdn.com/dms/image/v2/D4E03AQFkglm_96TFkA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724950567848?e=1752105600&v=beta&t=JQDntGEvNLdrhlzCGsTW6J7SMTuBs5vWs59sQOPUXCw",
     name: "Tito Ebiwonjumi",
-    position: "Co Founder",
+    position: "Co-Founder",
     bio: "Experienced software engineer and technical product manager with a strong background in QA, mobile/web development, and IT infrastructure. Passionate about bridging product strategy with engineering execution to deliver impactful software solutions.",
   },
   {
     imageSrc:
       "https://media.licdn.com/dms/image/v2/C5603AQGRipVourq4yg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1641228111692?e=1752105600&v=beta&t=oQJifZg7BVUx1KODDfh2FvL_5-kdi4bLbRWI-3_o0-w",
     name: "Celestine Akpanoko",
-    position: "Co Founder",
+    position: "Co-Founder",
     bio: "Experienced software engineer with a strong background in research-driven development and academic computing. Skilled in full-stack engineering, web technologies, and IT systems across diverse global environments.",
   },
 ];
@@ -65,7 +65,7 @@ const AboutSection: React.FC = () => {
         </div>
 
         <h3 className="text-2xl font-bold text-center mb-10">
-          Meet Our Leadership
+          Meet Our Team
         </h3>
 
         <div className="grid md:grid-cols-3 gap-8">
